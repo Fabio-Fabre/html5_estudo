@@ -1,50 +1,47 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE html> <!--Dizendo ao navegador que esse codigo é html5-->
+<html lang="pt-br"> <!--Abrindo uma tag html e especificando a linguagem-->
 
-<head>
+<head> <!--Abrindo a tag "cabeçalho", responsável pelos comportamentos e configurações-->
     <meta charset="UTF-8"/> <!--Resolvendo problema de acentuação-->
-    <title>Tudo sobre Google Glass</title>
-    <style>
-        body {
-            background-color: hsla( 165, 81%, 93%, 0.5);
-            color: rgba(0,0,0,0.5);
-        }
-        p {
-            text-align: justify;
-            text-indent: 50px;
-        }
-    </style>
-</head>
-<body>
+    <title>Tudo sobre Google Glass</title> <!-- Tag "title", responsável por mostrar o nome da barra do navegador-->
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css"/> <!--tag para ligar o arquivo html com o css-->
+</head> <!--Fechando tag "cabeçalho"-->
+<body> <!--Abrindo tag "corpo", responsável pela visualização-->
 <div id="interface"> <!--Abrindo a tag "divisão" com a identificação "interface", dividindo a página-->
 
     <header id="cabecalho"> <!--Tag para criar cabeçalhos, com identicação "cabecalho"-->
-    <hgroup> <!--Tag para agrupar, no caso um grupo de títulos-->
-    <h1>Google Glass</h1>
-    <h2>A revolução do Google está chegando</h2> 
-    </hgroup>
+        <hgroup> <!--Tag para agrupar títulos-->
+            <h1>Google Glass</h1>
+            <h2>A revolução do Google está chegando</h2> 
+        </hgroup>
 
-    <img src="_imagens/glass-oculos-preto-peq.png"/> <!--Tag para imagens/ parâmetro principal src=sorce ou origem-->
+        <img src="_imagens/glass-oculos-preto-peq.png"/> <!--Tag para imagens/ parâmetro principal src=sorce ou origem-->
 
-Menu Principal
-- Home
-- Especificações
-- Fotos
-- Multimídia
-- Fale conosco
+        Menu Principal
+        - Home
+        - Especificações
+        - Fotos
+        - Multimídia
+        - Fale conosco
     </header>
 
 <hgroup>    
-<h3>Tecnologia > &nbsp; Inovações</h3> <!-- tag br = break row, quebra de linha/ &nbsp; = non-breakeaking space ou espaço sem quebra-->
-<h1>Saiba tudo sobre o Google Glass</h1>
-<h2>por Gustavo Guanabara</h2>
-<h3>Atualizado em 23/Abril/2013</h3>
+    <h3>Tecnologia > &nbsp; Inovações</h3> <!-- tag br = break row, quebra de linha/ &nbsp; = non-breakeaking space ou espaço sem quebra-->
+    <h1>Saiba tudo sobre o Google Glass</h1>
+    <h2>por Gustavo Guanabara</h2>
+    <h3>Atualizado em 23/Abril/2013</h3>
 </hgroup>
 
 <h2>O que é</h2>
-<p>O <span style="font-weight:400;"><!--Sublinhado usando css3-->Google Glass</span> é um acessório em forma de óculos que possibilita a interação dos usuários com diversos conteúdos em realidade aumentada. Também chamado de <i>Project Glass</i>, o eletrônico é capaz de tirar fotos a partir de comandos de voz, enviar mensagens instantâneas e realizar vídeo&shy;con&shy;ferên&shy;cias. Seu lançamento está previsto para 2014, e seu preço deve ser de US$ 1,5 mil. Atualmente o <em>Google Glass</em> encontra-se em fase de testes e já possui um vídeo totalmente gravado com o dispositivo. Além disso, a companhia de buscas registrou novas patentes anti-furto e de desbloqueio de tela para o acessório.</p> <!--A tag "p" serve para demonstrar parágrafo/ &shy; = soft hyphen, quebra de palavra utilizando hífen/ a tag "b" deixa o texto em negrito/ a tag "i" deixa o texto em itálico/ a tag "em" deixa o texto em ênfase/ a tag "u" serve para sublinhar/ a tag "s" strike ou riscado substituida agora pela tag del = deletado-->
+<p>O <span style="font-weight:900;"><!--negrito usando css3-->Google Glass</span> é um acessório em forma de óculos que possibilita a interação dos usuários com diversos conteúdos em realidade aumentada. Também chamado de <i>Project Glass</i>, o eletrônico é capaz de tirar fotos a partir de comandos de voz, enviar mensagens instantâneas e realizar vídeo&shy;con&shy;ferên&shy;cias. Seu lançamento está previsto para 2014, e seu preço deve ser de US$ 1,5 mil. Atualmente o <em>Google Glass</em> encontra-se em fase de testes e já possui um vídeo totalmente gravado com o dispositivo. Além disso, a companhia de buscas registrou novas patentes anti-furto e de desbloqueio de tela para o acessório.</p> <!--A tag "p" serve para demonstrar parágrafo/ &shy; = soft hyphen, quebra de palavra utilizando hífen/ a tag "b" deixa o texto em negrito/ a tag "i" deixa o texto em itálico/ a tag "em" deixa o texto em ênfase/ a tag "s" strike ou riscado substituida agora pela tag del = deletado-->
 
-[AQUI ENTRA UMA FOTO]
+<figure class="foto-legenda"> <!--tag utilizada para dar significado semântico a imagens-->
+    <img src="_imagens/glass-quadro-homem-mulher.jpg"/>
+    <figcaption> <!--tag para por legenda na imagem-->
+        <h3>Google Glass</h3>
+        <p>Uma nova maneira de ver o mundo.</p>
+    </figcaption>
+</figure>
 
 <h1>Data de lançamento</h1>
 <p>Não há uma data específica e oficial para o dispositivo ser lançado, ainda. Pode ser que ele esteja disponível em demonstrações a partir de 2013, mas seu lançamento para as lojas fica para, pelo menos, 2014.</p>
@@ -78,5 +75,5 @@ Memória Interna: 12GB
 <p>Copyright &copy; 2013 - by Gustavo Guanabara
 Facebook | Twitter</p>
 </div>  
-</body>
-</html>
+</body> <!--Fechando tag "corpo"-->
+</html> <!--Fechando tag html-->
