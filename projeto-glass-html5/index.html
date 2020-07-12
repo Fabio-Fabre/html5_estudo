@@ -6,6 +6,7 @@
         <title>Tudo sobre Google Glass</title> <!-- Tag "title", responsável por mostrar o nome da barra do navegador-->
         <link rel="stylesheet" type="text/css" href="_css/estilo.css"/> <!--tag para ligar o arquivo html com o css-->
     </head> <!--Fechando tag "cabeçalho"-->
+    <script language="javascript" src="_javascript/funcoes.js"></script>
     <body> <!--Abrindo tag "corpo", responsável pela visualização-->
         <div id="interface"> <!--Abrindo a tag "divisão" com a identificação "interface", dividindo a página-->
 
@@ -19,11 +20,11 @@
                 <nav id="menu"> <!--tag para seção de navegação entre o próprio site ou outros-->
                     <h1>Menu Principal</h1>
                     <ul type="square">
-                        <li><a href="index.html" target="_self">Home</a></li>
-                        <li><a href="specs.html" target="_self">Especificações</a></li>
-                        <li><a href="fotos.html" target="_self">Fotos</a></li>
-                        <li><a href="multimidia.html" target="_self">Multimídia</a></li>
-                        <li><a href="fale-conosco.html" target="_self">Fale conosco</a></li>
+                        <li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="index.html" target="_self">Home</a></li>
+                        <li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="specs.html" target="_self">Especificações</a></li>
+                        <li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="fotos.html" target="_self">Fotos</a></li>
+                        <li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="multimidia.html" target="_self">Multimídia</a></li>
+                        <li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="fale-conosco.html" target="_self">Fale conosco</a></li>
                     </ul>
                 </nav>
             </header>
@@ -32,7 +33,7 @@
                 <article id="noticia-principal">
                     <header id="cabecalho-artigo">
                         <hgroup>    
-                            <h3>Tecnologia > &nbsp; Inovações</h3> <!-- tag br = break row, quebra de linha/ &nbsp; = non-breakeaking space ou espaço sem quebra-->
+                            <h2>Tecnologia > &nbsp; Inovações</h3> <!-- tag br = break row, quebra de linha/ &nbsp; = non-breakeaking space ou espaço sem quebra-->
                             <h1>Saiba tudo sobre o Google Glass</h1>
                             <h2>por Gustavo Guanabara</h2>
                             <h3 class="direita">Atualizado em 23/Abril/2013</h3>
