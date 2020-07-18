@@ -10,15 +10,15 @@ div#tv-radio {
 audio#musica {
     display: block;
     position: relative;
-    left: 575;
-    top: 500;
+    left: 572px;
+    top: 490px;
     width: 300px;
 }
 
 video#filme {
     display: block;
     position: relative;
-    left: 90;
-    top: 85;
+    left: 90px;
+    top: 70px;
     width: 440px;
 }
