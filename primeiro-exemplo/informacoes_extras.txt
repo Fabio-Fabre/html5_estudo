@@ -1,0 +1,20 @@
+Utilizando o text-decoration do css3:
+•	Underline = linha abaixo
+•	Overline = linha acima
+•	Line-through = riscado
+•	None = sem decoração
+Utilizando o font-weight do css3:
+•	Normal= sem nada
+•	Bold= negrito
+•	Bolder= mais negrito
+•	Entre 100 e 900= para definir o nível de negrito
+Utilizando o text-align do css3 para alinhar o texto.
+<p>Exemplo de <sub>formatação</sub></p>
+Ou <sup></sup>
+Tag code (<code></code>) para códigos.
+Tag pre (<pre></pre>) para texto pré formatado.
+Background-color para fundo
+Color para letra
+Background-image para selecionar imagens.
+Tipo de cor: rgb, rgba, #decimal, hsl, hsla
+
